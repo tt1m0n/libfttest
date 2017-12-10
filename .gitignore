@@ -1,0 +1,8 @@
+#no .a files
+*.o
+#no .o files
+*.a
+#but do track libft.a, even through you're ignoring .a files above
+!libft.a
+#no .swp files
+*swp
